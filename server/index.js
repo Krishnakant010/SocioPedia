@@ -54,7 +54,7 @@ app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
 /* MONGOOSE SETUP */
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 4000;
 
 const db = "mongodb://localhost:27017";
 
@@ -64,7 +64,7 @@ app.listen(PORT, () => {
 const dbConnect = () => {
   mongoose.set("strictQuery", true);
   mongoose
-    .connect("mongodb://0.0.0.0:27017/newDb", {
+    .connect(process.env.MONGO_URL, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
