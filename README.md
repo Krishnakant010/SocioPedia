@@ -1,0 +1,3 @@
+# SocioPedia
+This website is a social media platform that enables users to create and share posts with pictures. Users can also like and comment on other posts, creating a dynamic and engaging online environment. This website is built with express, react, and nodejs, which are modern and powerful web development technologies. This website aims to provide a user-centric and diverse space where people can express themselves and learn from others. Users can customize their profiles, follow topics of interest, and discover new content every day. This website is more than just a place to post pictures, it is a place to connect and grow.
+future scopes are:Enabling video uploads ,extensive error handling ,multilevel comments/
